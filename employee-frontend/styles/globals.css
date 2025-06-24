@@ -1,0 +1,23 @@
+/* styles/globals.css */
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#012626] text-white;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-[#1F7363] p-6 rounded-lg shadow-lg;
+  }
+  .button {
+    @apply bg-[#72BF6F] text-white px-4 py-2 rounded hover:bg-[#EEF277] transition;
+  }
+  .input {
+    @apply bg-[#EEF277] text-[#012626] p-2 rounded w-full mb-4;
+  }
+  .link {
+    @apply text-[#F25922] hover:underline;
+  }
+}
